@@ -14,9 +14,5 @@ This is a simple computational geometry project to demonstrate 2-D Minkowski sum
 -[NextSteps](docs/NextSteps.md)
 
 Please hire me haha jk...unless 
-.......................................|
-..........................¯\_(ツ)_/¯....|
-..............................||........|
-............................./..\........|
-...D.Wingard.7.2025.........|....|........|
-...........................................|
+
+D.Wingard.7.2025
