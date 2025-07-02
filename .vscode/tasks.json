@@ -1,0 +1,97 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "MINKOWKSI SUM - MAIN BUILD - NonConvex + Triangle",
+            "command": "bash",
+            "args": [
+                "-c",
+                "NAME=${input:executableName}; g++ -fdiagnostics-color=always -g -I./src -std=c++17 ${workspaceFolder}/src/main.cpp  -o \"$NAME\" -lGL -lGLEW -lglfw ; if [ $? -eq 0 ]; then echo \"Successfully created: $NAME\"; else echo \"Build failed: Get better at C++! (Fortran never fails)\"; fi; echo \"Press any key to close terminal...\"; read -n 1 -s"
+                ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "C++ build with OpenGL libraries and user-specified executable name",
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "MINKOWKSI SUM - UNIT TEST - Triangulator test",
+            "command": "bash",
+            "args": [
+                "-c",
+                "NAME=${input:executableName}; g++ -fdiagnostics-color=always -g -I./src -I../../ -I${workspaceFolder}/Testing  -std=c++17 ${workspaceFolder}/Testing/subTesting/Test_convexDecomp/test_decomp.cpp -o \"$NAME\" -lGL -lGLEW -lglfw; if [ $? -eq 0 ]; then echo \"Successfully created: $NAME\"; else echo \"Build failed: Get better at C++! (Fortran never fails)\"; fi; echo \"Press any key to close terminal...\"; read -n 1 -s"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "C++ build with OpenGL libraries and user-specified executable name",
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "MINKOWKSI SUM - UNIT TEST - Minkowski Sum",
+            "command": "bash",
+            "args": [
+                "-c",
+                "NAME=${input:executableName}; g++ -fdiagnostics-color=always -g -I./src -I../../ -I${workspaceFolder}/Testing  -std=c++17 ${workspaceFolder}/Testing/subTesting/Test_convexDecomp/test_minkowski.cpp -o \"$NAME\" -lGL -lGLEW -lglfw; if [ $? -eq 0 ]; then echo \"Successfully created: $NAME\"; else echo \"Build failed: Get better at C++! (Fortran never fails)\"; fi; echo \"Press any key to close terminal...\"; read -n 1 -s"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "C++ build with OpenGL libraries and user-specified executable name",
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "executableName",
+            "description": "Enter executable name",
+            "default": "myprogram",
+            "type": "promptString"
+        }
+    ],
+    "version": "2.0.0"
+}
