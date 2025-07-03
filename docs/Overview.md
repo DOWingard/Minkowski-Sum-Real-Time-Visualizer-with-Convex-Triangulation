@@ -5,12 +5,12 @@ Interactive simulation for Minkowksi sums with ear clipping for non-convex polyg
 ---
 
 ## Contents
--[Usage](docs/Usage.md) How to use.  
--[Geometry](docs/Geometry.md) Core geometry and polygon details.  
--[Minkowski Sum](docs/MinkowkiSum.md) Overview of the sum and convex hull operations.  
--[Triangulation](docs/Triangulation.md) Triangulation routine for non-convex polygons.  
--[Simulation](docs/Simulation.md) Simulation and interaction details.  
--[NextSteps](docs/NextSteps.md) Key issues or possible next improvements to be implemented.  
+-[Usage](Usage.md) How to use.  
+-[Geometry](Geometry.md) Core geometry and polygon details.  
+-[Minkowski Sum](MinkowkiSum.md) Overview of the sum and convex hull operations.  
+-[Triangulation](Triangulation.md) Triangulation routine for non-convex polygons.  
+-[Simulation](Simulation.md) Simulation and interaction details.  
+-[NextSteps](NextSteps.md) Key issues or possible next improvements to be implemented.  
 
 ---
 
