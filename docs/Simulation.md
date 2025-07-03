@@ -1,6 +1,6 @@
 # Simulation
 
-I mostly took on this project to focus on the core algorithms, so rendering and interactions are somewhat a means to an end so one can visually interact with the system.
+I mostly took on this project to focus on the core algorithms, so rendering and interactions are somewhat of a means to an end so one can visually interact with the system.
 
 ## Simulation Interactions
 * Controls how to cast polygon objects into a rendered scene
