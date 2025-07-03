@@ -19,4 +19,4 @@ Interactive simulation for Minkowksi sums with ear clipping for convex polygon t
 * Real time rendering of Minkowski Sum and shape deformations
 * Window clamping to prevent losing vertices off-screen
 * OpenGL rendering 
-*
+
