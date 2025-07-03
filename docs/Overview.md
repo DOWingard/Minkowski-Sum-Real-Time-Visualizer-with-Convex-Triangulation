@@ -1,6 +1,6 @@
 # Project Overview
 
-Interactive simulation for Minkowksi sums with ear clipping for convex polygon triangulation
+Interactive simulation for Minkowksi sums with ear clipping for non-convex polygon triangulation
 
 ---
 
