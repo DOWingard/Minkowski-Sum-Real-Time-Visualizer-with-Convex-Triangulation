@@ -16,7 +16,7 @@ Interactive simulation for Minkowksi sums with ear clipping for non-convex polyg
 
 ## Current Key Features
 * Interactive vertex maniulation
-* Real time rendering of Minkowski Sum and shape deformations
+* Real time rendering of Minkowski Sum convex hull and shape deformations
 * Window clamping to prevent losing vertices off-screen
 * OpenGL rendering 
 
