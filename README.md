@@ -1,6 +1,6 @@
 # Minkowski Sum Real Time Visualizer with Convex Triangulation
 
-First time C++ user, that why it looks like that...
+
 
 This is a simple computational geometry project to demonstrate 2-D Minkowski sums. 
 
