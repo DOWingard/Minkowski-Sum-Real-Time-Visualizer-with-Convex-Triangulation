@@ -13,6 +13,6 @@ This is a simple computational geometry project to demonstrate 2-D Minkowski sum
 -[Simulation](docs/Simulation.md)  
 -[NextSteps](docs/NextSteps.md)  
 
-Please hire me haha jk...unless 
+
 
 D.Wingard.7.2025
